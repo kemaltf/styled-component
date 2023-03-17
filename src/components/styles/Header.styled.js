@@ -17,3 +17,8 @@ export const Logo = styled.img`
   height: auto;
   box-sizing: border-box;
 `;
+
+export const Image = styled.img`
+  width: 375px;
+  margin-left: 40px;
+`;
