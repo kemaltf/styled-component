@@ -1,9 +1,10 @@
 import { Container } from "./styles/Container.styled";
 import { Flex } from "./styles/Flex.styled";
-
+import { StyledFooter } from "./styles/Footer.styled";
+import SocialIcons from "./SocialIcons";
 export default function Footer() {
   return (
-    <div>
+    <StyledFooter>
       <Container>
         <img src="./images/logo_white.svg"></img>
 
@@ -27,9 +28,10 @@ export default function Footer() {
             <li>Blog</li>
             <li>Contact Us</li>
           </ul>
+          <SocialIcons></SocialIcons>
         </Flex>
         <p>&copy; 2023 Huddle. All rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   );
 }
